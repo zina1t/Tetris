@@ -1,5 +1,5 @@
 # Tetris
-## Introuction
+## Introduction
 
 The project must consist of two parts to implement the Tetris game: a library that implements the logic of the game, which can be connected to different GUIs in the future, and a terminal interface. The logic of the library must be implemented using finite-state machines, one of the possible descriptions of which is given below.
 
