@@ -8,10 +8,23 @@ void start_state() {
   game_state->score = 0;
   game_state->x = 5;
   game_state->y = 10;
-  game_state->field = create_field(10, 20);
+  game_state->field = create_field(WIDTH, HEIGHT);
   int **next;
-
   int high_score;
 }
 
-int main() { return 0; }
+int create_field(int width, int height) {
+  int **field = NULL;
+
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) {
+      printf("x");
+    }
+  }
+  return field;
+}
+
+int main() {
+  create_field(10, 20); 
+  return 0; 
+  }

@@ -3,9 +3,10 @@
 
 #include <math.h>
 #include <stdio.h>
-
-#define FIELD_X 10
-#define FIELD_Y 20
+#include <stdbool.h>
+#include <stdlib.h>
+#define WIDTH 10
+#define HEIGHT 20
 typedef enum {
   Start,
   Pause,
@@ -33,5 +34,5 @@ void userInput(UserAction_t action, bool hold);
 
 GameInfo_t updateCurrentState();
 void start_state();
-
+int **create_field(int width, int height);
 #endif
